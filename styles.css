@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.page {
+  width: 50%;
+  height: 50px;
+  border: 2px blue;
+  border-spacing: 0;
+}
+.cadastro {
+  width: 50%;
+  height: 50px;
+  border: 2px blue;
+  border-spacing: 20;
+}
+
+
+table {
+  width: 50%;
+  height: 50px;
+  border: 2px green solid;
+  border-spacing: 20;
+}
+th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px green solid;
+  background-color: #f8f2f22c;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  text-align: center;
+  border: 1px rgb(19, 3, 3) solid;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0;
+  background: rgb(15, 15, 15);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.Excluir {
+  background-color:red;
+}
